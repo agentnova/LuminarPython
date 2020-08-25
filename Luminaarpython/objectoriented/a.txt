@@ -1,0 +1,4 @@
+101,arjun,developer,30000
+102,rahul,developer,50000
+103,amal,engineer,80000
+103,athul,manager,60000
