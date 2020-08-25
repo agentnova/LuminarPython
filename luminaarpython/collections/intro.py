@@ -1,5 +1,0 @@
-# list
-# tuple
-# set
-# dictionary
-
