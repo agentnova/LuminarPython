@@ -1,0 +1,21 @@
+show databes;
+
+create database luminarpython;
+
+use luminarpython;
+
+create table tablename(coloumnnanem type,column2 type);
+
+create table student(rol varchar(25),name varchar(20);
+
+show tables;
+
+describe student;
+
+insert into student(rol,name,total) values('100','Arjun',500)
+
+select  * from student
+
+
+
+employee--eid,ename,desig
