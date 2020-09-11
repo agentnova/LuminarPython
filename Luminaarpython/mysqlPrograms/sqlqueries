@@ -16,6 +16,8 @@ insert into student(rol,name,total) values('100','Arjun',500)
 
 select  * from student
 
+table author,(id varchar(10),name varchar(20))
+
 
 
 
