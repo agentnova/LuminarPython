@@ -1,0 +1,17 @@
+div{
+    background-color: brown;
+}
+#one{
+    background-color: cyan;
+    color: red;
+    border-style: solid;
+    border-color: black;
+    border-width: 12px;
+
+}
+.third{
+    background-color: green;
+    border-color: blue;
+    border-style: dotted;
+    border-width: 10px;
+}
