@@ -1,0 +1,42 @@
+h1{
+    font-family: 'Pacifico';
+}
+#main{
+    margin-left: 20%;
+    margin-top: 5%;
+}
+#one{
+    background-color: rgb(66, 135, 245);
+    margin-right: 1%;
+    float: left;
+    width: 13%;
+    height: 380px;
+}
+#two{
+    background-color: rgb(50, 194, 158);
+    margin-right: 1%;
+    float: left;
+    width: 13%;
+    height: 380px;
+}
+#three{
+    background-color: rgb(219, 215, 77);
+    margin-right: 1%;
+    float: left;
+    width: 13%;
+    height: 380px;
+}
+#four{
+    background-color: rgb(219, 77, 77);
+    margin-right: 1%;
+    float: left;
+    width: 13%;
+    height: 380px;
+}
+#five{
+    background-color: rgb(40, 125, 153);
+    margin-right: 1%;
+    float: left;
+    width: 13%;
+    height: 380px;
+}

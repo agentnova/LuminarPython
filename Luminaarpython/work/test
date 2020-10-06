@@ -1,0 +1,3 @@
+fetchdata(state="kerala")==total confirmed cases
+fetchdata(state="kerala",param="recovered")
+fetchdata(state="kerala",param="death")

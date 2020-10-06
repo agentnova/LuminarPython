@@ -1,0 +1,8 @@
+multitasking
+simultaneous execution of multiple task at a time
+
+1)multi processing-different independient task/job at a time
+2)multi threading-different process at a time on same task
+
+reduce processing time
+by default every program has one thread(MainThread)

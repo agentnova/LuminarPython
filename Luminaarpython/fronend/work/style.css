@@ -1,0 +1,10 @@
+.first{
+    color: blue;
+}
+.second{
+    color: red;
+}
+#dot{
+    border-style: dotted;
+    border-color: blue;
+}

@@ -1,0 +1,53 @@
+noval netware
+solaris
+linux
+gui
+mac
+windows
+
+file server
+client server
+
+ietf-internet engineering task force---open source organisation
+protocol-standerdisation through which we are communicating,subset of communication
+         ietf standerdise protocols;
+iana-internet assigned numbers authority.(assigns number to ip) and port
+Rfc-request for comments
+
+maping through network layers
+port-unique connection port
+
+multicasting---one to group
+broadcasting--one to many
+
+ip
+---
+local ip---lan ip
+global ip---wan ip
+lo--loopback--127.0.0.1
+wlo--wireless--local ip
+inet--system assigned ip in lan
+ping--system is up or not
+
+icmp-internet ctrl msg protocol(ctrling connected devices in the internetO)
+DNS-domain name server
+ping
+traceroute
+ipconfig
+netstat-----a-all protocols
+           -o-all outputs
+           -n-names
+           -p-pid==process id
+
+stream==TCP==when data is send there will be an acknowlodgement
+ack==reliable protocol
+DGRAM==UDP==Uni datagram protocol==no acknowledgement
+
+tcp==reliable , but data consuption is high
+Udp==not reliable , data consuption is very much less
+
+RTSP===realtime streaming protocol
+
+
+
+
