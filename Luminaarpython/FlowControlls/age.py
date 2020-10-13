@@ -7,7 +7,7 @@ cmonth = int(input("enter the current month :"))
 cday = int(input("enter the current day :"))
 
 age = cyear - byear
-month = cmonth - bmonth
+
 if(bmonth>cmonth):
     age-=1
 elif(bmonth==cmonth)&(bday>cday):

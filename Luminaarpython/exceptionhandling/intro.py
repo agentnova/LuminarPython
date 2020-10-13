@@ -7,6 +7,7 @@ try:
     print(res)
 except:
     print("exception occured")
+
 finally:
     #mandatory code which will be executed if exception happens or not(both cases)
     print("Thank you")
