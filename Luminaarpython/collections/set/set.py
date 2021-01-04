@@ -1,9 +1,9 @@
-emptyset=set()
-a={1,2,3,4}
+emptyset = set()
+a = {1, 2, 3, 4}
 a.add(7)
 print(a)
-st={1,2,3,4}
-st2={4,5,89}
+st = {1, 2, 3, 4}
+st2 = {4, 5, 89}
 st.update(st2)
 print(st)
 
@@ -13,8 +13,8 @@ print(st)
 # can store multiple types of values
 
 
-a={1,4,5}
-b={5,7,3}
+a = {1, 4, 5}
+b = {5, 7, 3}
 print(a.union(b))
 print(a.intersection(b))
 print(a.difference(b))

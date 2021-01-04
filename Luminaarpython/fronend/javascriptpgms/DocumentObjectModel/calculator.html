@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="calc.css">
+    <title>Calculator</title>
+</head>
+<body>
+
+<div class="main">
+<div class="calc">
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <input type="text" id="nums">
+        </div>
+    </div>
+</div>
+<div class="container">
+<div class="row" style="margin-top: 10%;">
+    <div class="col-3">
+    <button type="button" class="btn btn-warning btn-xl" onclick="display('1')">1</button>
+    </div>
+    <div class="col-3">
+    <button type="button" class="btn btn-warning btn-xl" onclick="display('2')">2</button>
+    </div>
+    <div class="col-3">
+    <button type="button" class="btn btn-warning btn-xl" onclick="display('3')">3</button>
+    </div>
+    <div class="col-3">
+    <button type="button" class="btn btn-warning btn-xl op" onclick="display('+')">+</button>
+    </div>
+</div>
+ <div class="row" style="margin-top: 4%;">
+    <div class="col-3">
+    <button type="button" class="btn btn-warning btn-xl" onclick="display('4')">4</button>
+    </div>
+    <div class="col-3">
+    <button type="button" class="btn btn-warning btn-xl" onclick="display('5')">5</button>
+    </div>
+    <div class="col-3">
+    <button type="button" class="btn btn-warning btn-xl" onclick="display('6')">6</button>
+    </div>
+    <div class="col-3">
+    <button type="button" class="btn btn-warning btn-xl op" onclick="display('-')">-</button>
+    </div>
+</div>
+<div class="row" style="margin-top: 4%;">
+    <div class="col-3">
+    <button type="button" class="btn btn-warning btn-xl" onclick="display('7')">7</button>
+    </div>
+    <div class="col-3">
+    <button type="button" class="btn btn-warning btn-xl" onclick="display('8')">8</button>
+    </div>
+    <div class="col-3">
+    <button type="button" class="btn btn-warning btn-xl" onclick="display('9')">9</button>
+    </div>
+    <div class="col-3">
+    <button type="button" class="btn btn-warning btn-xl op" onclick="display('/')">/</button>
+    </div>
+</div>
+<div class="row" style="margin-top: 4%;">
+    <div class="col-3">
+    <button type="button" class="btn btn-warning btn-xl" onclick="display('.')">.</button>
+    </div>
+    <div class="col-3">
+    <button type="button" class="btn btn-warning btn-xl" onclick="display('0')">0</button>
+    </div>
+    <div class="col-3">
+    <button type="button" class="btn btn-warning btn-xl op" onclick="display('*')">*</button>
+    </div>
+    <div class="col-3">
+    <button type="button" class="btn btn-warning btn-xl op" onclick="calculate()">=</button>
+    </div>
+</div>
+<div class="row" style="margin-top: 4%;">
+    <div class="col-12">
+    <button type="button" class="btn btn-warning btn-xl clr" onclick="clears()">CLEAR</button>
+    </div>
+</div>
+</div>
+</div>
+
+</div>
+<script src="calc.js"></script>
+</body>
+</html>

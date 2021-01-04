@@ -1,0 +1,52 @@
+*{
+    font-family: 'Varela Round', sans-serif;
+
+}
+body{
+    background-color: #FDCB14;
+    height: auto;
+}
+.first_p{
+    height: 100vh;
+    width: 30%;
+    background-color: #1A171D;
+}
+.name{
+    font-size: 2.5em;
+    color: #FDCB14;
+
+}
+.subname{
+    color: #FDCB14;
+}
+hr{
+    border-top: 1px solid #FDCB14;
+    margin-top: 0;
+}
+.vl{
+    border-left: 2px solid #FDCB14;
+    height: 100px;
+
+}
+p{
+    color: #FDCB14;
+    opacity: 0.5;
+    margin-top: 1%;
+}
+a{
+    text-decoration: None;
+    color: #FDCB14;
+    opacity: 0.5;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+i{
+    margin-top: 2%;
+}
+.edu{
+
+    position: relative;
+    left: 400px;
+    bottom: 530px;
+
+}

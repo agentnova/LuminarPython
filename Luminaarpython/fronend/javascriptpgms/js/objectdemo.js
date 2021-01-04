@@ -10,3 +10,5 @@ console.log("salary" in person)
 //adding new key value
 person["salary"]=25000
 console.log(person)
+
+//
